@@ -76,20 +76,20 @@ The following are the variables of the resulting data set aggMeasures.csv:
 	- fBodyBodyAccJerkMag_std
 	- fBodyBodyGyroMag_std
 	- fBodyBodyGyroJerkMag_std
-
+	
 The file aggMeasures.csv was created using the following files:
-	- activity_labels.txt
-	- features.txt
-	- subject_train.txt
-	- X_train.txt
-	- y_train.txt
-	- subject_test.txt
-	- X_test.txt
-	- y_train.txt
+	activity_labels.txt
+	features.txt
+	subject_train.txt
+	X_train.txt
+	y_train.txt
+	subject_test.txt
+	X_test.txt
+	y_train.txt
 
 The following the tasks are performed by the script:
- 	-Join the activity descriptions in activity_labels.txt with y_train.txt & y_test.txt to give a description o each activity
- 	-features.txt contains a description of each column in x_train & x_test. These values will be modified to remove special characters. This list will be used to name each column.
+	-Join the activity descriptions in activity_labels.txt with y_train.txt & y_test.txt to give a description o each activity
+	-features.txt contains a description of each column in x_train & x_test. These values will be modified to remove special characters. This list will be used to name each column.
 	- x_train and subject_train will be joined to add subject to X_train 
 	- x_test and subject_test will be joined to add subject to X_test 
 	- X_train and y_train will be joined to add the activity to X_Train
