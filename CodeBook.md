@@ -3,14 +3,12 @@ CodeBook.md
 
 The following are the variables of the resulting data set aggMeasures.csv:
 
-Summary variables - The data set was aggregated on the following varaibles:
-	- subject: One of 30 subject who took part i the study
-	- activity: The movement activity measured
-	- 
-These signals were used to estimate variables of the feature vector for each pattern:  
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions. The measure is either
-the mean (denoted mean) or the stadard deviation (denoted std). The data set aggMeasures.csv
-summarizes the following measures by taking the mean of each subject and activity.
+	Summary variables - The data set was aggregated on the following varaibles:
+	subject: One of 30 subject who took part i the study
+	activity: The movement activity measured
+	
+	These signals were used to estimate variables of the feature vector for each pattern:  
+	'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions. The measure is either the mean (denoted mean) or the stadard deviation (denoted std). The data set aggMeasures.csv summarizes the following measures by taking the mean of each subject and activity.
 	- tBodyAcc_mean_X
 	- tBodyAcc_mean_Y
 	- tBodyAcc_mean_Z
