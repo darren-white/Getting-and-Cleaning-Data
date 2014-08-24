@@ -88,8 +88,6 @@ The following are the variables of the resulting data set aggMeasures.csv:
 	- y_train.txt
 	
 	The following tasks are performed by the script:
-
-The following tasks are performed by the script:
 	- Join the activiy descriptions in activity_labels.txt with y_train.txt and y_test.txt to give a description to each activity
 	-features.txt contains a description of each column in x_train & x_test. These values will be modified to remove special characters. This list will be used to name each column.
 	- x_train and subject_train will be joined to add subject to X_train 
