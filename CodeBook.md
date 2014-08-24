@@ -87,6 +87,9 @@ The following are the variables of the resulting data set aggMeasures.csv:
 	- X_test.txt
 	- y_train.txt
 	
+	The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
+
+
 	The following tasks are performed by the script:
 	- Join the activiy descriptions in activity_labels.txt with y_train.txt and y_test.txt to give a description to each activity
 	-features.txt contains a description of each column in x_train & x_test. These values will be modified to remove special characters. This list will be used to name each column.
