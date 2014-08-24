@@ -78,14 +78,14 @@ The following are the variables of the resulting data set aggMeasures.csv:
 	- fBodyBodyGyroJerkMag_std
 	
 The file aggMeasures.csv was created using the following files:
-	activity_labels.txt
-	features.txt
-	subject_train.txt
-	X_train.txt
-	y_train.txt
-	subject_test.txt
-	X_test.txt
-	y_train.txt
+	- activity_labels.txt
+	- features.txt
+	- subject_train.txt
+	- X_train.txt
+	- y_train.txt
+	- subject_test.txt
+	- X_test.txt
+	- y_train.txt
 
 The following the tasks are performed by the script:
 	-Join the activity descriptions in activity_labels.txt with y_train.txt & y_test.txt to give a description o each activity
