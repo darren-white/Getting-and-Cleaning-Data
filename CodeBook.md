@@ -76,8 +76,8 @@ The following are the variables of the resulting data set aggMeasures.csv:
 	- fBodyBodyAccJerkMag_std
 	- fBodyBodyGyroMag_std
 	- fBodyBodyGyroJerkMag_std
-	
-The file aggMeasures.csv was created using the following files:
+
+	The file aggMeasures.csv was created using the following files:
 	- activity_labels.txt
 	- features.txt
 	- subject_train.txt
