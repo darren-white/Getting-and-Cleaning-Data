@@ -86,6 +86,8 @@ The following are the variables of the resulting data set aggMeasures.csv:
 	- subject_test.txt
 	- X_test.txt
 	- y_train.txt
+	
+	The following tasks are performed by the script:
 
 The following tasks are performed by the script:
 	- Join the activiy descriptions in activity_labels.txt with y_train.txt and y_test.txt to give a description to each activity
